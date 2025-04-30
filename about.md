@@ -4,4 +4,12 @@ title: About
 ---
 # About page
 
-This page tells you a little bit about me.
+![mine](./assets/images/H.png)
+
+
+大家好！我是HeLong，来自China，目前从事学生。我对人工智能、摄影、音乐充满热情，喜欢通过旅行、写作来不断学习和成长。
+
+在工作/学习中，我注重团队协作、创新、细致，并致力于探索多元文化。业余时间，我喜欢阅读科幻小说、跑步、尝试新菜谱，这些活动让我保持活力与创造力。
+
+期待与大家交流，分享彼此的故事与经验！
+
