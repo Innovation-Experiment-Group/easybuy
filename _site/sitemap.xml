@@ -1,26 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://0.0.0.0:4000/authors/helong.html</loc>
-<lastmod>2025-05-20T21:14:53+00:00</lastmod>
+<loc>http://localhost:4000/about.html</loc>
 </url>
 <url>
-<loc>http://0.0.0.0:4000/authors/ted.html</loc>
-<lastmod>2025-05-20T21:14:53+00:00</lastmod>
+<loc>http://localhost:4000/</loc>
 </url>
 <url>
-<loc>http://0.0.0.0:4000/about.html</loc>
+<loc>http://localhost:4000/products.html</loc>
 </url>
 <url>
-<loc>http://0.0.0.0:4000/</loc>
-</url>
-<url>
-<loc>http://0.0.0.0:4000/products.html</loc>
-</url>
-<url>
-<loc>http://0.0.0.0:4000/services.html</loc>
-</url>
-<url>
-<loc>http://0.0.0.0:4000/staff.html</loc>
+<loc>http://localhost:4000/services.html</loc>
 </url>
 </urlset>
