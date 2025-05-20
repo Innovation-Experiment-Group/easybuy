@@ -1,0 +1,64 @@
+global:
+  language_name: "English"
+  chinese: "中文"
+  english: "English"
+nav:
+  home: "Home"
+  products: "Products"
+  services: "Services"
+  about: "About"
+  contact: "Contact"
+home:
+  hero:
+    title: "Global Trade Excellence"
+    subtitle: "Your Trusted Partner in International Trade"
+    cta: "Contact Us"
+  products:
+    title: "Featured Products"
+    electronics: "Premium Electronics"
+    electronics_desc: "High-quality electronic products for global markets"
+    consumer: "Consumer Goods"
+    consumer_desc: "Everyday essentials for international customers"
+    industrial: "Industrial Equipment"
+    industrial_desc: "Professional grade machinery and tools"
+  advantages:
+    title: "Why Choose Us"
+    global: "Global Reach"
+    global_desc: "Serving customers in over 50 countries"
+    quality: "Quality Assured"
+    quality_desc: "ISO certified products and services"
+    delivery: "Fast Delivery"
+    delivery_desc: "Efficient logistics and shipping worldwide"
+    support: "24/7 Support"
+    support_desc: "Professional customer service team"
+about:
+  hero:
+    title: "About Global Trade Excellence"
+    subtitle: "Your Trusted Partner in International Trade Since 1995"
+  story:
+    title: "Our Story"
+    content1: "Global Trade Excellence has been at the forefront of international trade for over 25 years. Founded in 1995, we have grown from a small trading company to a global leader in import-export solutions, serving clients across more than 50 countries."
+    content2: "Our commitment to quality, reliability, and customer satisfaction has earned us the trust of businesses worldwide. We specialize in connecting manufacturers with global markets, providing comprehensive trading solutions that help businesses thrive in the international marketplace."
+  mission:
+    title: "Our Mission"
+    content: "To facilitate seamless global trade by providing innovative solutions and exceptional service that enables businesses to succeed in international markets."
+  vision:
+    title: "Our Vision"
+    content: "To be the world's most trusted partner in international trade, setting the standard for excellence in global commerce."
+  values:
+    title: "Our Core Values"
+    integrity: "Integrity"
+    integrity_desc: "We conduct business with the highest ethical standards and transparency."
+    excellence: "Excellence"
+    excellence_desc: "We strive for excellence in every aspect of our operations."
+    partnership: "Partnership"
+    partnership_desc: "We build long-lasting relationships based on mutual trust and success."
+    innovation: "Innovation"
+    innovation_desc: "We embrace new technologies and ideas to stay ahead of market trends."
+footer:
+  about_us: "About Us"
+  about_content: "Global Trade Excellence is your trusted partner in international trade, providing high-quality products and comprehensive solutions for businesses worldwide."
+  quick_links: "Quick Links"
+  contact_info: "Contact Info"
+  follow_us: "Follow Us"
+  copyright: "All rights reserved."

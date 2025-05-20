@@ -1,0 +1,76 @@
+---
+layout: default
+title: Products
+---
+<div class="products-page">
+    <div class="hero-small">
+        <div class="hero-content">
+            <h1>Our Products</h1>
+            <p>Discover our wide range of high-quality products</p>
+        </div>
+    </div>
+
+    <div class="products-catalog section">
+        <div class="container">
+            <div class="categories">
+                <button class="category-btn active" data-category="all">All Products</button>
+                <button class="category-btn" data-category="electronics">Electronics</button>
+                <button class="category-btn" data-category="industrial">Industrial</button>
+                <button class="category-btn" data-category="consumer">Consumer Goods</button>
+            </div>
+
+            <div class="product-grid">
+                <div class="product-card" data-category="electronics">
+                    <div class="product-image">
+                        <img src="/assets/images/product1.jpg" alt="Smart Electronics">
+                    </div>
+                    <div class="product-info">
+                        <h3>Smart Electronics</h3>
+                        <p>High-performance electronic components for modern devices</p>
+                        <button class="inquiry-btn">Request Quote</button>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="industrial">
+                    <div class="product-image">
+                        <img src="/assets/images/product2.jpg" alt="Industrial Equipment">
+                    </div>
+                    <div class="product-info">
+                        <h3>Industrial Equipment</h3>
+                        <p>Professional-grade machinery for manufacturing</p>
+                        <button class="inquiry-btn">Request Quote</button>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="consumer">
+                    <div class="product-image">
+                        <img src="/assets/images/product3.jpg" alt="Consumer Products">
+                    </div>
+                    <div class="product-info">
+                        <h3>Consumer Products</h3>
+                        <p>Quality goods for everyday use</p>
+                        <button class="inquiry-btn">Request Quote</button>
+                    </div>
+                </div>
+
+                <!-- Add more product cards as needed -->
+            </div>
+        </div>
+    </div>
+
+    <div class="product-inquiry section">
+        <div class="container">
+            <h2>Product Inquiry</h2>
+            <form class="inquiry-form">
+                <div class="form-grid">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <input type="text" placeholder="Company Name">
+                    <input type="text" placeholder="Product Interest">
+                    <textarea placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="cta-button">Send Inquiry</button>
+            </form>
+        </div>
+    </div>
+</div>

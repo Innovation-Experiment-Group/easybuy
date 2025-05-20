@@ -1,14 +1,92 @@
 ---
 layout: default
-title: Blog
+title: Home
 ---
-<h1>HeLong's Posts List</h1>
+<div class="hero">
+  <div class="hero-content">
+    <h1>Global Trade Excellence</h1>
+    <p>Your Trusted Partner in International Trade</p>
+    <a href="#contact" class="cta-button">Contact Us</a>
+  </div>
+</div>
 
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-      {{ post.excerpt }}
-    </li>
-  {% endfor %}
-</ul>
+<div class="products section">
+  <div class="container">
+    <h2>Featured Products</h2>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="/assets/images/product1.jpg" alt="Product 1">
+        <h3>Premium Electronics</h3>
+        <p>High-quality electronic products for global markets</p>
+      </div>
+      <div class="product-card">
+        <img src="/assets/images/product2.jpg" alt="Product 2">
+        <h3>Consumer Goods</h3>
+        <p>Everyday essentials for international customers</p>
+      </div>
+      <div class="product-card">
+        <img src="/assets/images/product3.jpg" alt="Product 3">
+        <h3>Industrial Equipment</h3>
+        <p>Professional grade machinery and tools</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="advantages section">
+  <div class="container">
+    <h2>Why Choose Us</h2>
+    <div class="advantages-grid">
+      <div class="advantage-card">
+        <i class="fas fa-globe"></i>
+        <h3>Global Reach</h3>
+        <p>Serving customers in over 50 countries</p>
+      </div>
+      <div class="advantage-card">
+        <i class="fas fa-award"></i>
+        <h3>Quality Assured</h3>
+        <p>ISO certified products and services</p>
+      </div>
+      <div class="advantage-card">
+        <i class="fas fa-shipping-fast"></i>
+        <h3>Fast Delivery</h3>
+        <p>Efficient logistics and shipping worldwide</p>
+      </div>
+      <div class="advantage-card">
+        <i class="fas fa-headset"></i>
+        <h3>24/7 Support</h3>
+        <p>Professional customer service team</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="contact" class="contact section">
+  <div class="container">
+    <h2>Contact Us</h2>
+    <div class="contact-grid">
+      <div class="contact-form">
+        <form action="#" method="POST">
+          <input type="text" placeholder="Your Name" required>
+          <input type="email" placeholder="Your Email" required>
+          <textarea placeholder="Your Message" required></textarea>
+          <button type="submit" class="cta-button">Send Message</button>
+        </form>
+      </div>
+      <div class="contact-info">
+        <div class="info-item">
+          <i class="fas fa-map-marker-alt"></i>
+          <p>123 Business Street, Trade City, TC 12345</p>
+        </div>
+        <div class="info-item">
+          <i class="fas fa-phone"></i>
+          <p>+1 234 567 8900</p>
+        </div>
+        <div class="info-item">
+          <i class="fas fa-envelope"></i>
+          <p>contact@yourdomain.com</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

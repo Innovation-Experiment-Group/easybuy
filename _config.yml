@@ -1,7 +1,38 @@
+# Global Trade Excellence Website Configuration
+
+# Site settings
+title: Global Trade Excellence
+email: info@globaltradeexcellence.com
+description: >-
+  Global Trade Excellence - Your trusted partner in international trade, 
+  providing high-quality products and comprehensive solutions for businesses worldwide.
+baseurl: ""
+url: "https://www.globaltradeexcellence.com"
+company_founding_year: 1995
+
+# Social media
+social:
+  linkedin: "#"
+  facebook: "#"
+  twitter: "#"
+  instagram: "#"
+
+# Contact information
+contact:
+  address: "123 Trade Street, Business City, BC 12345"
+  phone: "+1 (234) 567-890"
+  email: "info@globaltradeexcellence.com"
+
+# Collections
 collections:
   authors:
     output: true
+  products:
+    output: true
+  services:
+    output: true
 
+# Default layouts
 defaults:
   - scope:
       path: ""
@@ -15,5 +46,37 @@ defaults:
       layout: "post"
   - scope:
       path: ""
+      type: "products"
+    values:
+      layout: "product"
+  - scope:
+      path: ""
+      type: "services"
+    values:
+      layout: "service"
+  - scope:
+      path: ""
     values:
       layout: "default"
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Language settings
+languages: ["en", "zh"]
+default_lang: "zh"
+exclude_from_localization: ["assets", "images"]
+parallel_localization: true
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .git
+  - README.md
